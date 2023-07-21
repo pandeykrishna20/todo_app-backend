@@ -1,0 +1,197 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* root tag for all element */
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  /* main body part */
+  body {
+    margin: 20px;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  /*
+  input type text*/
+.container-fluid{
+  height: 100vh;
+  overflow:auto ;
+  
+}
+  input[type="text"] {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .form-label{
+     font-size:2rem;
+     padding:5px;
+     word-spacing:normal;
+     
+  }/*button function design*/
+    button[type="submit"]{
+    
+    display:flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    padding: 10px;
+    text-align:center;
+   
+    
+  }
+  /*add button*/
+  #add{
+   
+    font-size:15px;
+    size:10px;
+    width:60px;
+    
+    justify-content: center;
+    margin-top: -20px;
+    display:flex;
+    margin-right: 5rem;;
+  }
+  /*delete button*/
+  #del{
+    font-size:15px;
+    
+    margin-left:15rem;
+    margin-top: -43px;
+    margin-right: 2rem;
+    width:60px;
+    justify-content: center;
+  }
+  h1{
+    text-align: center;
+    /* color:rgb(159, 133, 4); */
+    color: blue;
+    border:2px solid rgb(92, 91, 91);
+    width:100%;
+    border-radius: 2rem;
+    transition: 50scale;
+    box-shadow: 3px 3px  5px pink;
+    outline:none;
+    border:none;
+    justify-content: center;
+
+  }
+  h1:hover{
+    color: green;
+  }
+  
+  #checkbox{
+    position: inherit;
+    
+    margin-bottom: -5rem;
+    margin-right: 100rem;
+    
+   }
+   
+   li{
+    display:inline-block;
+    flex-direction: 0;
+   }
+   
+   
+
+  [id="task-description"] {
+    
+    font-size:3rem;
+    white-space: nowrap;
+    margin-left:-11rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:clip;
+    position: realtive;
+    top:0px;
+    margin-top: -0.1rem;
+    text-transform: upperCase;
+    transform:scale(50%)
+
+
+   
+  }
+   
+  
+  /* for selecting elements whose class attribute is todo__category */
+  [id^="task-category"] {
+    font-size: rem;
+    text-transform: uppercase;
+    border:none ;
+    margin-left:-1rem;
+    
+   
+    
+  }
+  /* all category*/
+    dl,#task-category {
+    font-size:1.9rem;
+    text-transform: uppercase;
+
+    color: rgb(103, 71, 207);
+   
+    
+  }
+  
+  
+  
+  dl,#due-date{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:-1rem;
+    margin-left:-1rem;
+    justify-content: center;
+    align-items: center;padding:2px;
+  }
+    #task-category {
+    padding:2px;
+     margin-left:52rem;
+     margin-top: -20rem;
+     
+    
+  }
+  
+  
+  
+  
+   [class="bi bi-plus"]{
+    font-size:20px;
+    margin-left:-1rem;
+    
+
+  }
+  [class="bi bi-trash-fill"]{
+    font-size:13px;
+    margin-left:-1rem;
+  }
+  div .border{
+    border:1px solid rgb(214, 210, 210);
+     background-color: rgb(200, 207, 207);
+     color:black;
+     cursor:pointer;
+     margin:2px;
+  }
+
+ 
+  
